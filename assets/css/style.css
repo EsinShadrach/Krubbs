@@ -17,6 +17,10 @@
 	background: var(--primary-5);
 }
 
+.text-krubbs-blue{
+	color: var(--krubbs_blue) !important;
+}
+
 #body {
 	font-family: "poppins" system-ui, -apple-system, BlinkMacSystemFont,
 		"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -106,6 +110,7 @@
 }
 
 .search_active {
+	color: var(--krubbs_blue);
 	border: 1px solid var(--krubbs_blue);
 }
 
@@ -196,6 +201,34 @@
     filter: invert(1) grayscale(100);
 }
 
+/* .footer_card_1{
+	color: var(--krubbs_blue);
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	font-size: 130%;
+}
+
+.footer_card_1 .card_img_text{
+	font-weight: bold;
+	
+} */
+
+.footer_img{
+	width: 3rem;
+}
+
+.centered_foot{
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.footer_row_2{
+	display: flex !important;
+	width: 100%;
+	justify-content: center !important;
+}
+
 @media (max-width: 767px) {
 	.to_show_at_smaller_screen {
 		display: flex !important;
@@ -221,6 +254,12 @@
 		margin-block: 0.5rem;
 	}
 	.ktext_logo {
+		display: block !important;
+	}
+	.footer_lg{
+		display: none;
+	}
+	.footer_md{
 		display: block !important;
 	}
 }
