@@ -30,7 +30,7 @@
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<script defer src="./assets/js/bootstrap.bundle.min.js"></script>
 		<script defer src="./assets/js/app.js"></script>
-		<link href="http://fonts.cdnfonts.com/css/Poppins" rel="stylesheet" />
+		<!-- <link href="http://fonts.cdnfonts.com/css/Poppins" rel="stylesheet" /> -->
 	</head>
 	<body id="body">
 		<header>
@@ -234,9 +234,9 @@
 							aria-label="Twelveth slide"
 						></li>
 					</ol>
-					<div class="carousel-inner" role="listbox">
+					<div class="carousel-inner carousel-inner_me" role="listbox">
 						<div class="carousel-item active">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 1.jpeg"
@@ -246,7 +246,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 2.jpg"
@@ -256,7 +256,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 3.jpg"
@@ -266,7 +266,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 4.png"
@@ -276,7 +276,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 5.png"
@@ -286,7 +286,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 6.jpg"
@@ -296,7 +296,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 8.jpg"
@@ -306,7 +306,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 9.jpg"
@@ -316,7 +316,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/Krubbs 10.jpg"
@@ -326,7 +326,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/krubbs 11.jpeg"
@@ -336,7 +336,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/krubbs 12.jpeg"
@@ -346,7 +346,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<div class="d-flex justify-content-center">
+							<div class="d-flex img_container justify-content-center">
 								<img
 									draggable="false"
 									src="./assets/images/krubbs 13.jpeg"
@@ -357,7 +357,7 @@
 						</div>
 					</div>
 					<button
-						class="carousel-control-prev"
+						class="carousel-control-prev previous_carousel"
 						type="button"
 						data-bs-target="#Item"
 						data-bs-slide="prev"
@@ -369,7 +369,7 @@
 						<span class="visually-hidden">Previous</span>
 					</button>
 					<button
-						class="carousel-control-next"
+						class="carousel-control-next previous_carousel"
 						type="button"
 						data-bs-target="#Item"
 						data-bs-slide="next"
@@ -562,9 +562,77 @@
 						</button>
 					</div>
 				</div>
-				<div class="mt-4">
-					<div class="row text-center">
-						<div class="col-md-4">
+				<div class="mt-2">
+					<div class="row" style="justify-content: space-between;">
+						<div class="col-md-auto">
+							<div class="card border-0 bg-none">
+								<div class="card-body">
+									<h3 class="card-title">
+										<a
+											href="#"
+											target="_blank"
+											rel="noopener noreferrer"
+											class="text-dark text-decoration-none"
+										>
+											Products
+										</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-auto">
+							<div class="card border-0 bg-none">
+								<div class="card-body">
+									<h3 class="card-title">
+										<a
+											href="#"
+											target="_blank"
+											rel="noopener noreferrer"
+											class="text-dark text-decoration-none"
+										>
+											Customize
+										</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-auto">
+							<div class="card border-0 bg-none">
+								<div class="card-body">
+									<h3 class="card-title">
+										<a
+											href="#"
+											target="_blank"
+											rel="noopener noreferrer"
+											class="text-dark text-decoration-none"
+										>
+											FAQs
+										</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-auto">
+							<div class="card border-0 bg-none">
+								<div class="card-body">
+									<h3 class="card-title">
+										<a
+											href="#"
+											target="_blank"
+											rel="noopener noreferrer"
+											class="text-dark text-decoration-none"
+										>
+											Our Services
+										</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="my-2">
+					<div class="row text-center" style="justify-content: space-between;">
+						<div class="col-md-auto">
 							<div class="card border-0 bg-none">
 								<div class="card-body">
 									<h3 class="card-title">
@@ -580,7 +648,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-auto">
 							<div class="card border-0 bg-none">
 								<div class="card-body">
 									<h3 class="card-title">
@@ -596,7 +664,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-auto">
 							<div class="card border-0 bg-none">
 								<div class="card-body">
 									<h3 class="card-title">
